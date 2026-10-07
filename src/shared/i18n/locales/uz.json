@@ -1,0 +1,190 @@
+{
+  "common": {
+    "currency": "so'm",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "back": "Orqaga",
+    "confirm": "Tasdiqlash",
+    "continue": "Davom etish",
+    "all": "Barchasi"
+  },
+  "date": {
+    "format": "{{day}}-{{month}}, {{year}}",
+    "months": ["yanvar", "fevral", "mart", "aprel", "may", "iyun", "iyul", "avgust", "sentabr", "oktabr", "noyabr", "dekabr"]
+  },
+  "nav": {
+    "home": "Asosiy",
+    "cards": "Kartalar",
+    "payments": "To'lovlar",
+    "transfer": "O'tkazmalar",
+    "history": "Tarix",
+    "profile": "Profil"
+  },
+  "home": {
+    "greeting": "Xush kelibsiz,",
+    "totalBalance": "Umumiy balans",
+    "showBalance": "Balansni ko'rsatish",
+    "hideBalance": "Balansni yashirish",
+    "actions": {
+      "pay": "To'lash",
+      "transfer": "O'tkazish",
+      "mobile": "Aloqa",
+      "cards": "Kartalarim"
+    },
+    "popular": "Ommabop to'lovlar",
+    "recent": "So'nggi amallar",
+    "balanceTrend": "30 kunlik dinamika"
+  },
+  "cards": {
+    "title": "Kartalarim",
+    "add": "Karta qo'shish",
+    "empty": "Sizda hali kartalar yo'q",
+    "balance": "Balans",
+    "main": "Asosiy",
+    "blocked": "Bloklangan",
+    "makeMain": "Asosiy",
+    "block": "Bloklash",
+    "unblock": "Ochish",
+    "deleteTitle": "Kartani o'chirasizmi?",
+    "deleteMessage": "•• {{number}} karta ilovadan o'chiriladi. Amallar tarixi saqlanib qoladi."
+  },
+  "addCard": {
+    "title": "Yangi karta",
+    "number": "Karta raqami",
+    "expiry": "Amal qilish muddati",
+    "otpSent": "{{phone}} raqamiga SMS-kod yubordik",
+    "otpHint": "Demo rejim: {{code}} kodidan foydalaning"
+  },
+  "payment": {
+    "fromCard": "Yechiladigan karta",
+    "amount": "Summa",
+    "fee": "Komissiya",
+    "total": "Jami",
+    "provider": "Qabul qiluvchi",
+    "confirmTitle": "To'lovni tasdiqlang",
+    "pay": "To'lash",
+    "limits": "{{min}} dan {{max}} so'mgacha"
+  },
+  "payments": {
+    "title": "To'lovlar",
+    "search": "Xizmatlarni qidirish",
+    "notFound": "Hech narsa topilmadi",
+    "fee": "Komissiya {{fee}}%",
+    "noFee": "Komissiyasiz",
+    "allCategories": "Barcha toifalar",
+    "providers": "Barcha xizmatlar",
+    "payTitle": "To'lov"
+  },
+  "categories": {
+    "mobile": "Mobil aloqa",
+    "internet": "Internet",
+    "utilities": "Kommunal",
+    "tv": "TV",
+    "transport": "Transport",
+    "taxes": "Soliq va jarimalar",
+    "education": "Ta'lim",
+    "games": "O'yinlar"
+  },
+  "fields": {
+    "phone": "Telefon raqami",
+    "account": "Shaxsiy hisob raqami",
+    "contract": "Shartnoma raqami",
+    "login": "Login",
+    "playerId": "O'yinchi ID",
+    "transportCard": "Transport karta raqami",
+    "tin": "STIR",
+    "carNumber": "Avtomobil davlat raqami",
+    "studentId": "Talaba ID",
+    "recipientCard": "Qabul qiluvchi kartasi",
+    "recipientName": "Qabul qiluvchi",
+    "senderCard": "Jo'natuvchi kartasi"
+  },
+  "transactions": {
+    "types": {
+      "payment": "To'lov",
+      "transfer": "O'tkazma",
+      "topup": "Tushum"
+    },
+    "status": {
+      "success": "Muvaffaqiyatli",
+      "failed": "Xatolik"
+    }
+  },
+  "transfer": {
+    "title": "Kartaga o'tkazma",
+    "confirmTitle": "O'tkazmani tasdiqlang",
+    "send": "O'tkazish",
+    "searching": "Qabul qiluvchi qidirilmoqda…",
+    "ownCards": "O'z kartalarim"
+  },
+  "history": {
+    "title": "Tarix",
+    "empty": "Hozircha amallar yo'q",
+    "today": "Bugun",
+    "yesterday": "Kecha",
+    "income": "Tushumlar",
+    "expense": "Xarajatlar",
+    "weekChart": "Oxirgi 7 kun",
+    "spentShare": "tushumlardan sarflangan",
+    "types": {
+      "all": "Barchasi",
+      "payment": "To'lovlar",
+      "transfer": "O'tkazmalar",
+      "topup": "Tushumlar"
+    },
+    "periods": {
+      "all": "Butun davr",
+      "today": "Bugun",
+      "week": "Hafta",
+      "month": "Oy"
+    }
+  },
+  "receipt": {
+    "title": "Chek",
+    "date": "Sana",
+    "toCard": "Tushgan karta",
+    "id": "Amal raqami",
+    "repeat": "To'lovni takrorlash",
+    "toHome": "Asosiyga"
+  },
+  "profile": {
+    "title": "Profil",
+    "language": "Interfeys tili",
+    "theme": "Mavzu",
+    "demoTitle": "Demo rejim",
+    "demoOtp": "SMS tasdiqlash kodi: {{code}}",
+    "demoRecipients": "O'tkazmalar uchun test kartalar:",
+    "reset": "Demo ma'lumotlarni tiklash",
+    "resetMessage": "Kartalar va amallar tarixi boshlang'ich holatiga qaytadi.",
+    "resetConfirm": "Tiklash"
+  },
+  "theme": {
+    "light": "Yorug'",
+    "dark": "Qorong'i",
+    "system": "Tizim"
+  },
+  "validation": {
+    "cardLength": "Karta raqami 16 ta raqamdan iborat bo'lishi kerak",
+    "cardInvalid": "Karta raqami noto'g'ri",
+    "cardUnsupported": "Uzcard, Humo, Visa va Mastercard qo'llab-quvvatlanadi",
+    "expiry": "Amal qilish muddati noto'g'ri yoki tugagan",
+    "phone": "Raqamni to'liq kiriting",
+    "digitsLength": "{{min}} dan {{max}} tagacha raqam kiriting",
+    "digitsExact": "{{max}} ta raqam kiriting",
+    "textLength": "{{min}} dan {{max}} tagacha belgi kiriting",
+    "amountRange": "Summa {{min}} dan {{max}} so'mgacha bo'lishi kerak",
+    "selectCard": "Kartani tanlang"
+  },
+  "errors": {
+    "cardNotFound": "Karta topilmadi",
+    "cardBlocked": "Karta bloklangan",
+    "insufficientFunds": "Kartada mablag' yetarli emas",
+    "amountOutOfRange": "Summa ruxsat etilgan oraliqdan tashqarida",
+    "providerNotFound": "Xizmat topilmadi",
+    "sameCard": "Xuddi shu kartaga o'tkazib bo'lmaydi",
+    "invalidCard": "Karta topilmadi yoki qo'llab-quvvatlanmaydi",
+    "duplicateCard": "Bu karta allaqachon qo'shilgan",
+    "wrongOtp": "Tasdiqlash kodi noto'g'ri",
+    "unknown": "Nimadir xato ketdi. Qaytadan urinib ko'ring"
+  }
+}

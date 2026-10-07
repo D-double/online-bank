@@ -1,0 +1,190 @@
+{
+  "common": {
+    "currency": "UZS",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "back": "Back",
+    "confirm": "Confirm",
+    "continue": "Continue",
+    "all": "All"
+  },
+  "date": {
+    "format": "{{month}} {{day}}, {{year}}",
+    "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+  },
+  "nav": {
+    "home": "Home",
+    "cards": "Cards",
+    "payments": "Payments",
+    "transfer": "Transfers",
+    "history": "History",
+    "profile": "Profile"
+  },
+  "home": {
+    "greeting": "Welcome back,",
+    "totalBalance": "Total balance",
+    "showBalance": "Show balance",
+    "hideBalance": "Hide balance",
+    "actions": {
+      "pay": "Pay",
+      "transfer": "Transfer",
+      "mobile": "Mobile",
+      "cards": "My cards"
+    },
+    "popular": "Popular payments",
+    "recent": "Recent transactions",
+    "balanceTrend": "Last 30 days"
+  },
+  "cards": {
+    "title": "My cards",
+    "add": "Add card",
+    "empty": "You have no cards yet",
+    "balance": "Balance",
+    "main": "Main",
+    "blocked": "Blocked",
+    "makeMain": "Main",
+    "block": "Block",
+    "unblock": "Unblock",
+    "deleteTitle": "Delete card?",
+    "deleteMessage": "Card •• {{number}} will be removed from the app. Transaction history will be kept."
+  },
+  "addCard": {
+    "title": "New card",
+    "number": "Card number",
+    "expiry": "Expiry date",
+    "otpSent": "We sent an SMS code to {{phone}}",
+    "otpHint": "Demo mode: use code {{code}}"
+  },
+  "payment": {
+    "fromCard": "Pay from",
+    "amount": "Amount",
+    "fee": "Fee",
+    "total": "Total",
+    "provider": "Recipient",
+    "confirmTitle": "Confirm payment",
+    "pay": "Pay",
+    "limits": "From {{min}} to {{max}} UZS"
+  },
+  "payments": {
+    "title": "Payments",
+    "search": "Search providers",
+    "notFound": "Nothing found",
+    "fee": "Fee {{fee}}%",
+    "noFee": "No fee",
+    "allCategories": "All categories",
+    "providers": "All providers",
+    "payTitle": "Payment"
+  },
+  "categories": {
+    "mobile": "Mobile",
+    "internet": "Internet",
+    "utilities": "Utilities",
+    "tv": "TV",
+    "transport": "Transport",
+    "taxes": "Taxes & fines",
+    "education": "Education",
+    "games": "Games"
+  },
+  "fields": {
+    "phone": "Phone number",
+    "account": "Account number",
+    "contract": "Contract number",
+    "login": "Login",
+    "playerId": "Player ID",
+    "transportCard": "Transport card number",
+    "tin": "Taxpayer ID (TIN)",
+    "carNumber": "License plate",
+    "studentId": "Student ID",
+    "recipientCard": "Recipient card",
+    "recipientName": "Recipient",
+    "senderCard": "Sender card"
+  },
+  "transactions": {
+    "types": {
+      "payment": "Payment",
+      "transfer": "Transfer",
+      "topup": "Incoming"
+    },
+    "status": {
+      "success": "Successful",
+      "failed": "Failed"
+    }
+  },
+  "transfer": {
+    "title": "Card transfer",
+    "confirmTitle": "Confirm transfer",
+    "send": "Send",
+    "searching": "Looking up recipient…",
+    "ownCards": "My cards"
+  },
+  "history": {
+    "title": "History",
+    "empty": "No transactions yet",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "income": "Income",
+    "expense": "Expenses",
+    "weekChart": "Last 7 days",
+    "spentShare": "of income spent",
+    "types": {
+      "all": "All",
+      "payment": "Payments",
+      "transfer": "Transfers",
+      "topup": "Incoming"
+    },
+    "periods": {
+      "all": "All time",
+      "today": "Today",
+      "week": "Week",
+      "month": "Month"
+    }
+  },
+  "receipt": {
+    "title": "Receipt",
+    "date": "Date",
+    "toCard": "Credited card",
+    "id": "Transaction ID",
+    "repeat": "Repeat payment",
+    "toHome": "Go home"
+  },
+  "profile": {
+    "title": "Profile",
+    "language": "Language",
+    "theme": "Theme",
+    "demoTitle": "Demo mode",
+    "demoOtp": "SMS confirmation code: {{code}}",
+    "demoRecipients": "Test cards for transfers:",
+    "reset": "Reset demo data",
+    "resetMessage": "Cards and transaction history will be restored to their initial state.",
+    "resetConfirm": "Reset"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "validation": {
+    "cardLength": "Card number must contain 16 digits",
+    "cardInvalid": "Invalid card number",
+    "cardUnsupported": "Uzcard, Humo, Visa and Mastercard are supported",
+    "expiry": "Invalid or expired date",
+    "phone": "Enter the full number",
+    "digitsLength": "Enter {{min}} to {{max}} digits",
+    "digitsExact": "Enter {{max}} digits",
+    "textLength": "Enter {{min}} to {{max}} characters",
+    "amountRange": "Amount must be between {{min}} and {{max}} UZS",
+    "selectCard": "Select a card"
+  },
+  "errors": {
+    "cardNotFound": "Card not found",
+    "cardBlocked": "Card is blocked",
+    "insufficientFunds": "Insufficient funds",
+    "amountOutOfRange": "Amount is out of the allowed range",
+    "providerNotFound": "Provider not found",
+    "sameCard": "Cannot transfer to the same card",
+    "invalidCard": "Card not found or not supported",
+    "duplicateCard": "This card has already been added",
+    "wrongOtp": "Wrong confirmation code",
+    "unknown": "Something went wrong. Please try again"
+  }
+}

@@ -1,0 +1,110 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --color-brand-500: #7c5cff;
+  --color-brand-600: #6a45f0;
+  --color-highlight: #22d3ee;
+  --color-accent: #e040fb;
+
+  --color-gradient-from: #4f7cff;
+  --color-gradient-via: #8b5cf6;
+  --color-gradient-to: #e040fb;
+
+  /* Семантические токены: значения для тёмной темы переопределены ниже в `.dark`. */
+  --color-page: #f3f2fb;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f7f6fd;
+  --color-surface-strong: #ecebf8;
+  --color-line: #e2e0f3;
+  --color-fg: #1b1d3a;
+  --color-fg-soft: #474a72;
+  --color-muted: #6c6f98;
+  --color-subtle: #a1a3c6;
+  --color-brand-strong: #5b3fe0;
+  --color-positive: #059669;
+  --color-negative: #e11d48;
+
+  --animate-fade-in: fade-in 0.25s ease-out;
+  --animate-slide-up: slide-up 0.3s ease-out;
+  --animate-pop: pop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-up {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes pop {
+    from {
+      transform: scale(0.4);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+@layer base {
+  .dark {
+    color-scheme: dark;
+
+    --color-page: #13162e;
+    --color-surface: #1c2043;
+    --color-surface-muted: #242952;
+    --color-surface-strong: #2c3260;
+    --color-line: #353c70;
+    --color-fg: #eef0ff;
+    --color-fg-soft: #c4c8ec;
+    --color-muted: #8f94c4;
+    --color-subtle: #626799;
+    --color-brand-strong: #a996ff;
+    --color-positive: #34d399;
+    --color-negative: #fb7185;
+  }
+
+  body {
+    @apply bg-page text-fg antialiased;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@utility bg-brand-gradient {
+  background-image: linear-gradient(
+    120deg,
+    var(--color-gradient-from),
+    var(--color-gradient-via),
+    var(--color-gradient-to)
+  );
+}
+
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
